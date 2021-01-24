@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(189, 224, 221);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    background: cadetblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    font-size:  17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a.github:hover,a.linkedin:hover,a.projects:hover{
+    background: turquoise;
+    transition: .5s;
+}
+
+.me{
+    display: flex;
+    align-items: top;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.me span {
+    padding: 0 50px;
+}
+
+.headshot{
+    border-radius: 200px;
+    box-shadow: 3px 3px 5px;
+    height: 600px;
+    width: auto;
+}
+
+.text{
+    padding-top: 50px;
+    width: 400px;
+}
+
+.text-info p{
+    padding-bottom: 10px;
+}
+
+.text-info b{
+    font-size: 20px;
+}
+
+.contact-info b {
+    font-size: 20px;
+}
+
+.contact-info p{
+    padding-bottom: 10px;
+}
+
